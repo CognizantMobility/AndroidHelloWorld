@@ -1,10 +1,17 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
+sourceSets {
 
-testLocal {
-  java.srcDir file('app/src/androidTest/java/com/example/helloworld')
-       }
+        testLocal {
+
+            java.srcDir file('app/src/androidTest/java/com/example/helloworld/')
+
+            
+
+        }
+
+    }
 
     repositories {
         jcenter()
@@ -17,6 +24,7 @@ testLocal {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
+    
     task localTest(type: Test, dependsOn: assemble) {
 
    testClassesDir = sourceSets.testLocal.output.classesDir
