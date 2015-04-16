@@ -11,20 +11,8 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
-    
-    
+  }
 
-    
-}
-
-android {
- defaultConfig {
-        testPackageName "com.test.foo"
-        testInstrumentationRunner "android.test.InstrumentationTestRunner"
-        testHandleProfiling true
-        testFunctionalTest true
-    }
-    }
 
 allprojects {
     repositories {
