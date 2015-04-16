@@ -10,7 +10,7 @@ android {
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
-        testPackageName "/src/androidTest.java.com.example.helloworld"
+        testPackageName "androidTest.java.com.example.helloworld"
         testInstrumentationRunner "android.test.InstrumentationTestRunner"
         testHandleProfiling true
         testFunctionalTest true
