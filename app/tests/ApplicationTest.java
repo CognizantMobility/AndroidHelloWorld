@@ -1,5 +1,5 @@
 
-package com.example.helloworld;
+package com.example.helloworld.tests;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
