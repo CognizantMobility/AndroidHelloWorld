@@ -38,6 +38,6 @@ public class MainActivity extends   ActionBarActivity {
     }
 
     public static String myName(){
-        return "rakesh";
+        return "ramesh";
     }
 }
