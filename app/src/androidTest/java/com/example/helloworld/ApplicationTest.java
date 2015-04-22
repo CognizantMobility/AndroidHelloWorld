@@ -12,6 +12,6 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     }
 
     public void testMyName(){
-        assertEquals("rakesh" ,MainActivity.myName());
+        assertEquals("ramesh" ,MainActivity.myName());
     }
 }
