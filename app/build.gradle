@@ -5,6 +5,14 @@ android {
     buildToolsVersion "21.1.2"
 
      signingConfigs {
+defaultConfig {
+        applicationId "com.example.helloworld"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
 
         release {
 
